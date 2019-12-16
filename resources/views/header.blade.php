@@ -27,13 +27,13 @@
 		
 <h1>ТЕСТОВОЕ ЗАДАНИЕ МАНСУРА</h1>
 <h3 class='text-muted'>ДЛЯ ПАВЛОДАРСКОГО ГОСУДАРСТВЕННОГО УНИВЕРСИТЕТА</h3>
-<h4 class='text-muted'>ПАРСИНГ RSS ЛЕНТ / СОХРАНИЕНИЕ В БД / AJAX ЗАГРУЗКА / ПАГИНАЦИЯ / СЧЕТЧИК ПРОСМОТРОВ / BOOTSTRAP / LARAVEL</h4>
+<h4 class='text-muted'>ПАРСИНГ RSS ЛЕНТ / СОХРАНЕНИЕ В БД / AJAX ЗАГРУЗКА / ПАГИНАЦИЯ / СЧЕТЧИК ПРОСМОТРОВ / BOOTSTRAP / LARAVEL</h4>
 <nav class="navbar navbar-default">
 	<div class="container-fluid">
 		<ul class="nav navbar-nav">
-			<li class="@if ($page == 'welcome') active @endif"><a href="http://pgu-parser.kz/">ГЛАВНАЯ</a></li>
-			<li class="@if ($page == 'about') active @endif"><a href="http://pgu-parser.kz/about">О САЙТЕ</a></li>
-			<li class="@if ($page == 'howitis') active @endif"><a href="http://pgu-parser.kz/howitis">КАК РАЗРАБАТЫВАЛОСЬ</a></li>
+			<li class="@if ($page == 'welcome') active @endif"><a href="http://pgu.iskakovstudio.kz/">ГЛАВНАЯ</a></li>
+			<li class="@if ($page == 'about') active @endif"><a href="http://pgu.iskakovstudio.kz/about">О САЙТЕ</a></li>
+			<li class="@if ($page == 'howitis') active @endif"><a href="http://pgu.iskakovstudio.kz/howitis">КАК РАЗРАБАТЫВАЛОСЬ</a></li>
 			<!-- <li class="@if ($page == 'home') active @endif"><a href="#" id='JOKER'>ДЛЯ КРАСОТЫ</a></li> -->
 		</ul>
 	</div>
