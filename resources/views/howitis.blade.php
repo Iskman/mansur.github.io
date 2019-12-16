@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 			@include('header')
 			<center>
-				<h4>
 				<img src='http://pgu.iskakovstudio.kz/task.jpg'>
-				<p>Была поставлена такая задача...</p><br><br>
-				<img src='http://pgu.iskakovstudio.kz/1.png'>
+				<p class='h4'>Была поставлена такая задача...</p>
+				<img src='http://pgu.iskakovstudio.kz/1.png' class='mt-3'>
 				<p>Локальный сервер для тестирования</p><br>
 				<img src='http://pgu.iskakovstudio.kz/2.png'>
 				<p>Создание локального домена</p><br>
@@ -28,7 +27,6 @@
 				<p>За работу в PHP, LARAVEL, MySQL, JavaScript, CSS и т.п.</p><br>
 				<img src='http://pgu.iskakovstudio.kz/Mansur.jpg'>
 				<p>Программирование, тестирование и снова программирование...</p><br>
-				</h4>
 			</center>
 		</div>
     </body>
