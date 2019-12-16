@@ -1,0 +1,3 @@
+<?php $__currentLoopData = $parsing; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $prs): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+	<h3><?php echo e($prs->title); ?></h3><p><?php echo $prs->body; ?></p>
+<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?><?php /**PATH C:\OpenServer\OSPanel\domains\pgu-parser.kz\resources\views/ajax.blade.php ENDPATH**/ ?>
