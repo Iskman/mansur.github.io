@@ -77,7 +77,7 @@ class SiteController extends Controller
 							$body .= preg_replace('#<a.*>.*</a>#USi', '', $p);	// удаляем все ссылки
 						}
 					}
-					DB::insert('insert into parsing (title, body, dsc, views, url) values (?, ?, ?, ?, ?)', [$items->title, $body, $items->description, 0, $items->link]);
+					DB::insert('insert into parsing (title, body, dsc, views, url, created_at) values (?, ?, ?, ?, ?, ?)', [$items->title, $body, $items->description, 0, $items->link, date("Y-m-d H:i:s", strtotime($items->pubDate))]);
 				}
 			}
 		}
