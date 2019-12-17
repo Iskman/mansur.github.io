@@ -11,7 +11,7 @@
 			<h3 class='text-muted'>ВСЕ НОВОСТИ</h3>
 			<ul class="list-unstyled">
 				@foreach ($parsing as $prs)
-					<li><a href="post/{{$prs->id}}">{{ $prs->title }}</a><p>{{ $prs->dsc }}</p></li>
+					<li><font class="text-muted">[{{ $prs->created_at }}]</font>&nbsp;<a href="post/{{$prs->id}}">{{ $prs->title }}</a><p>{{ $prs->dsc }}</p></li>
 				@endforeach
 			</ul>
 			{{$parsing->links()}}
