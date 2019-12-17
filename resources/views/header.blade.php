@@ -23,41 +23,41 @@
     </head>
     <body>
 		<div class="container">
-		
-		
-<h1>ТЕСТОВОЕ ЗАДАНИЕ МАНСУРА</h1>
-<h3 class='text-muted'>ДЛЯ ПАВЛОДАРСКОГО ГОСУДАРСТВЕННОГО УНИВЕРСИТЕТА</h3>
-<h4 class='text-muted'>ПАРСИНГ RSS ЛЕНТ / СОХРАНЕНИЕ В БД / AJAX ЗАГРУЗКА / ПАГИНАЦИЯ / СЧЕТЧИК ПРОСМОТРОВ / BOOTSTRAP / LARAVEL</h4>
-<nav class="navbar navbar-default">
-	<div class="container-fluid">
-		<ul class="nav navbar-nav">
-			<li class="@if ($page == 'welcome') active @endif"><a href="http://pgu.iskakovstudio.kz/">ГЛАВНАЯ</a></li>
-			<li class="@if ($page == 'about') active @endif"><a href="http://pgu.iskakovstudio.kz/about">О САЙТЕ</a></li>
-			<li class="@if ($page == 'howitis') active @endif"><a href="http://pgu.iskakovstudio.kz/howitis">КАК РАЗРАБАТЫВАЛОСЬ</a></li>
-			<!-- <li class="@if ($page == 'home') active @endif"><a href="#" id='JOKER'>ДЛЯ КРАСОТЫ</a></li> -->
-		</ul>
-	</div>
-</nav>
+			<hr>
+			<h1 class='text-primary'><strong>ТЕСТОВОЕ ЗАДАНИЕ</strong></h1>
+			<p class='h3 text-muted'>ИСКАКОВА МАНСУРА<br>ДЛЯ ПАВЛОДАРСКОГО ГОСУДАРСТВЕННОГО УНИВЕРСИТЕТА</p>
+			<h4 class='text-muted'>ПАРСИНГ RSS ЛЕНТ / СОХРАНЕНИЕ В БД / AJAX ЗАГРУЗКА / ПАГИНАЦИЯ / СЧЕТЧИК ПРОСМОТРОВ / BOOTSTRAP / LARAVEL</h4>
+			<hr>
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<ul class="nav navbar-nav">
+						<li class="@if ($page == 'welcome') active @endif"><a href="http://pgu.iskakovstudio.kz/">ГЛАВНАЯ</a></li>
+						<li class="@if ($page == 'about') active @endif"><a href="http://pgu.iskakovstudio.kz/about">О САЙТЕ</a></li>
+						<li class="@if ($page == 'howitis') active @endif"><a href="http://pgu.iskakovstudio.kz/howitis">КАК РАЗРАБАТЫВАЛОСЬ</a></li>
+						<!-- <li class="@if ($page == 'home') active @endif"><a href="#" id='JOKER'>ДЛЯ КРАСОТЫ</a></li> -->
+					</ul>
+				</div>
+			</nav>
+			<hr>
 
-
-<!-- Модальное окно -->  
-<div class="modal fade" id="show" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        <h4 class="modal-title" id="myModalLabel">ПОПУЛЯРНАЯ НОВОСТЬ</h4>
-      </div>
-      <div class="modal-body">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
-      </div>
-    </div>
-  </div>
-</div>
+			<!-- Модальное окно -->  
+			<div class="modal fade" id="show" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel">ПОПУЛЯРНАЯ НОВОСТЬ</h4>
+				  </div>
+				  <div class="modal-body">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
 
 <script language="javascript" type="text/javascript">
 	$(document).ready(function(){

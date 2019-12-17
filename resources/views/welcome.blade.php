@@ -7,6 +7,7 @@
 					<li><font class="text-muted">[{{ $loop->index+1 }}]</font>&nbsp;<a href="ajax/{{$prs->id}}" class='ajax'>{{ $prs->title }}</a></li>
 				@endforeach
 			</ul>
+			<hr>
 			<h3 class='text-muted'>ВСЕ НОВОСТИ</h3>
 			<ul class="list-unstyled">
 				@foreach ($parsing as $prs)
@@ -14,6 +15,7 @@
 				@endforeach
 			</ul>
 			{{$parsing->links()}}
+			<hr>
 		</div>
     </body>
 </html>
