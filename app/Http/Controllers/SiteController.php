@@ -84,7 +84,7 @@ class SiteController extends Controller
 
 		$parsing = DB::table('parsing')->orderBy('id', 'desc')->paginate(10);
 		
-		$popular = DB::table('parsing')->orderBy('views', 'desc')->paginate(5);
+		$popular = DB::table('parsing')->orderBy('views', 'desc')->limit(5)->get();
 		
 		$page = 'welcome';
 		return view('welcome', compact('parsing', 'popular', 'page'));
